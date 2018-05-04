@@ -1,0 +1,1477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblThereIsNoExam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblThereIsNoExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblThereIsNoExam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 39</value>
+  </data>
+  <data name="lblThereIsNoExam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 16</value>
+  </data>
+  <data name="lblThereIsNoExam.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblThereIsNoExam.Text" xml:space="preserve">
+    <value>There is no exam need to take :)</value>
+  </data>
+  <data name="&gt;&gt;lblThereIsNoExam.Name" xml:space="preserve">
+    <value>lblThereIsNoExam</value>
+  </data>
+  <data name="&gt;&gt;lblThereIsNoExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblThereIsNoExam.Parent" xml:space="preserve">
+    <value>pnlNoticBack</value>
+  </data>
+  <data name="&gt;&gt;lblThereIsNoExam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlNoticBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 75</value>
+  </data>
+  <data name="pnlNoticBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 513</value>
+  </data>
+  <data name="pnlNoticBack.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;pnlNoticBack.Name" xml:space="preserve">
+    <value>pnlNoticBack</value>
+  </data>
+  <data name="&gt;&gt;pnlNoticBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNoticBack.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;pnlNoticBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBackLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 50</value>
+  </data>
+  <data name="lblBackLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>541, 1</value>
+  </data>
+  <data name="lblBackLine.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblBackLine.Name" xml:space="preserve">
+    <value>lblBackLine</value>
+  </data>
+  <data name="&gt;&gt;lblBackLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBackLine.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblBackLine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblbackNotice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblbackNotice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblbackNotice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 44</value>
+  </data>
+  <data name="lblbackNotice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="lblbackNotice.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblbackNotice.Text" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="&gt;&gt;lblbackNotice.Name" xml:space="preserve">
+    <value>lblbackNotice</value>
+  </data>
+  <data name="&gt;&gt;lblbackNotice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblbackNotice.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblbackNotice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNoties6add.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties6add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties6add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 380</value>
+  </data>
+  <data name="lblNoties6add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="lblNoties6add.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblNoties6add.Text" xml:space="preserve">
+    <value>of time.</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6add.Name" xml:space="preserve">
+    <value>lblNoties6add</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6add.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6add.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNoties2add.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties2add.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties2add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 230</value>
+  </data>
+  <data name="lblNoties2add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 16</value>
+  </data>
+  <data name="lblNoties2add.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblNoties2add.Text" xml:space="preserve">
+    <value>you click "next question".</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2add.Name" xml:space="preserve">
+    <value>lblNoties2add</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2add.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2add.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNoties6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 350</value>
+  </data>
+  <data name="lblNoties6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>607, 16</value>
+  </data>
+  <data name="lblNoties6.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lblNoties6.Text" xml:space="preserve">
+    <value>6) If a you exits the exam which is not submitted yet, you can continue the exam before the end </value>
+  </data>
+  <data name="&gt;&gt;lblNoties6.Name" xml:space="preserve">
+    <value>lblNoties6</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNoties5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 320</value>
+  </data>
+  <data name="lblNoties5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 16</value>
+  </data>
+  <data name="lblNoties5.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblNoties5.Text" xml:space="preserve">
+    <value>5) When the exam exceeds the time limitation, it will submit automatically.</value>
+  </data>
+  <data name="&gt;&gt;lblNoties5.Name" xml:space="preserve">
+    <value>lblNoties5</value>
+  </data>
+  <data name="&gt;&gt;lblNoties5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties5.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblNoties4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 290</value>
+  </data>
+  <data name="lblNoties4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 16</value>
+  </data>
+  <data name="lblNoties4.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblNoties4.Text" xml:space="preserve">
+    <value>4) The exam should have the time limitation.</value>
+  </data>
+  <data name="&gt;&gt;lblNoties4.Name" xml:space="preserve">
+    <value>lblNoties4</value>
+  </data>
+  <data name="&gt;&gt;lblNoties4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties4.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblNoties3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 260</value>
+  </data>
+  <data name="lblNoties3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 16</value>
+  </data>
+  <data name="lblNoties3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblNoties3.Text" xml:space="preserve">
+    <value>3) Once click "next question", the answered questions could not be seen again.</value>
+  </data>
+  <data name="&gt;&gt;lblNoties3.Name" xml:space="preserve">
+    <value>lblNoties3</value>
+  </data>
+  <data name="&gt;&gt;lblNoties3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties3.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNoties2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 200</value>
+  </data>
+  <data name="lblNoties2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>606, 16</value>
+  </data>
+  <data name="lblNoties2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblNoties2.Text" xml:space="preserve">
+    <value>2) You should only see one question at a time during the exam;Next question could be seen util</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2.Name" xml:space="preserve">
+    <value>lblNoties2</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNoties1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoties1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNoties1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 170</value>
+  </data>
+  <data name="lblNoties1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 16</value>
+  </data>
+  <data name="lblNoties1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblNoties1.Text" xml:space="preserve">
+    <value>1) Only single choice questions are supported in the exam.</value>
+  </data>
+  <data name="&gt;&gt;lblNoties1.Name" xml:space="preserve">
+    <value>lblNoties1</value>
+  </data>
+  <data name="&gt;&gt;lblNoties1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoties1.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblNoties1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblAboutTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAboutTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="lblAboutTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 112</value>
+  </data>
+  <data name="lblAboutTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="lblAboutTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAboutTitle.Text" xml:space="preserve">
+    <value>Examination Rules</value>
+  </data>
+  <data name="&gt;&gt;lblAboutTitle.Name" xml:space="preserve">
+    <value>lblAboutTitle</value>
+  </data>
+  <data name="&gt;&gt;lblAboutTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAboutTitle.Parent" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;lblAboutTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnlAboutBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 75</value>
+  </data>
+  <data name="pnlAboutBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 516</value>
+  </data>
+  <data name="pnlAboutBack.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlAboutBack.Name" xml:space="preserve">
+    <value>pnlAboutBack</value>
+  </data>
+  <data name="&gt;&gt;pnlAboutBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAboutBack.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;pnlAboutBack.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblOptionUpLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="lblOptionUpLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 1</value>
+  </data>
+  <data name="lblOptionUpLine.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUpLine.Name" xml:space="preserve">
+    <value>lblOptionUpLine</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUpLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUpLine.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUpLine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblOptionUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 106</value>
+  </data>
+  <data name="lblOptionUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 1</value>
+  </data>
+  <data name="lblOptionUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUnderline.Name" xml:space="preserve">
+    <value>lblOptionUnderline</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUnderline.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblOptionUnderline.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 76</value>
+  </data>
+  <data name="lblAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="lblAbout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblAbout.Name" xml:space="preserve">
+    <value>lblAbout</value>
+  </data>
+  <data name="&gt;&gt;lblAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAbout.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblAbout.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNotice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblNotice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 37</value>
+  </data>
+  <data name="lblNotice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblNotice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblNotice.Text" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="lblNotice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblNotice.Name" xml:space="preserve">
+    <value>lblNotice</value>
+  </data>
+  <data name="&gt;&gt;lblNotice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNotice.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblNotice.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 0</value>
+  </data>
+  <data name="lblLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 637</value>
+  </data>
+  <data name="lblLine.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Name" xml:space="preserve">
+    <value>lblLine</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Parent" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;lblLine.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pnlHomeBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlHomeBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 637</value>
+  </data>
+  <data name="pnlHomeBack.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnlHomeBack.Name" xml:space="preserve">
+    <value>pnlHomeBack</value>
+  </data>
+  <data name="&gt;&gt;pnlHomeBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlHomeBack.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;pnlHomeBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlListBody.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 111</value>
+  </data>
+  <data name="pnlListBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 303</value>
+  </data>
+  <data name="pnlListBody.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pnlListBody.Name" xml:space="preserve">
+    <value>pnlListBody</value>
+  </data>
+  <data name="&gt;&gt;pnlListBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlListBody.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;pnlListBody.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblLineDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLineDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 109</value>
+  </data>
+  <data name="lblLineDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 2</value>
+  </data>
+  <data name="lblLineDown.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblLineDown.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblLineDown.Name" xml:space="preserve">
+    <value>lblLineDown</value>
+  </data>
+  <data name="&gt;&gt;lblLineDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineDown.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;lblLineDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLineUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLineUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="lblLineUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 2</value>
+  </data>
+  <data name="lblLineUp.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblLineUp.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblLineUp.Name" xml:space="preserve">
+    <value>lblLineUp</value>
+  </data>
+  <data name="&gt;&gt;lblLineUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLineUp.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;lblLineUp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDuration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 83</value>
+  </data>
+  <data name="lblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 16</value>
+  </data>
+  <data name="lblDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Duration(Mins)</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Name" xml:space="preserve">
+    <value>lblDuration</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;lblDuration.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="costumizeOpera.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizeOpera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>859, 72</value>
+  </data>
+  <data name="costumizeOpera.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizeOpera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 40</value>
+  </data>
+  <data name="costumizeOpera.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;costumizeOpera.Name" xml:space="preserve">
+    <value>costumizeOpera</value>
+  </data>
+  <data name="&gt;&gt;costumizeOpera.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizeOpera.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizeOpera.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="costumizeId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizeId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 72</value>
+  </data>
+  <data name="costumizeId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizeId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 40</value>
+  </data>
+  <data name="costumizeId.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;costumizeId.Name" xml:space="preserve">
+    <value>costumizeId</value>
+  </data>
+  <data name="&gt;&gt;costumizeId.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizeId.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizeId.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="costumizePass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizePass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 70</value>
+  </data>
+  <data name="costumizePass.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizePass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 40</value>
+  </data>
+  <data name="costumizePass.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;costumizePass.Name" xml:space="preserve">
+    <value>costumizePass</value>
+  </data>
+  <data name="&gt;&gt;costumizePass.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizePass.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizePass.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="costumizeTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizeTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 72</value>
+  </data>
+  <data name="costumizeTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizeTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 40</value>
+  </data>
+  <data name="costumizeTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;costumizeTotal.Name" xml:space="preserve">
+    <value>costumizeTotal</value>
+  </data>
+  <data name="&gt;&gt;costumizeTotal.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizeTotal.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizeTotal.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="costumizeEffectTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizeEffectTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 72</value>
+  </data>
+  <data name="costumizeEffectTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizeEffectTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 40</value>
+  </data>
+  <data name="costumizeEffectTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;costumizeEffectTime.Name" xml:space="preserve">
+    <value>costumizeEffectTime</value>
+  </data>
+  <data name="&gt;&gt;costumizeEffectTime.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizeEffectTime.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizeEffectTime.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="costumizeHeadName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="costumizeHeadName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 72</value>
+  </data>
+  <data name="costumizeHeadName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="costumizeHeadName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 40</value>
+  </data>
+  <data name="costumizeHeadName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;costumizeHeadName.Name" xml:space="preserve">
+    <value>costumizeHeadName</value>
+  </data>
+  <data name="&gt;&gt;costumizeHeadName.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeHead, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costumizeHeadName.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costumizeHeadName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="costomizeTabLblUnfinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 30</value>
+  </data>
+  <data name="costomizeTabLblUnfinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="costomizeTabLblUnfinished.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblUnfinished.Name" xml:space="preserve">
+    <value>costomizeTabLblUnfinished</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblUnfinished.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeTabLbl, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblUnfinished.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblUnfinished.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="costomizeTabLblFinished.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 30</value>
+  </data>
+  <data name="costomizeTabLblFinished.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="costomizeTabLblFinished.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblFinished.Name" xml:space="preserve">
+    <value>costomizeTabLblFinished</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblFinished.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeTabLbl, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblFinished.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblFinished.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="costomizeTabLblAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="costomizeTabLblAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="costomizeTabLblAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblAll.Name" xml:space="preserve">
+    <value>costomizeTabLblAll</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblAll.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeTabLbl, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblAll.Parent" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;costomizeTabLblAll.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="pnlContentBackBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 90</value>
+  </data>
+  <data name="pnlContentBackBorder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 640</value>
+  </data>
+  <data name="pnlContentBackBorder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlContentBackBorder.Name" xml:space="preserve">
+    <value>pnlContentBackBorder</value>
+  </data>
+  <data name="&gt;&gt;pnlContentBackBorder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlContentBackBorder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlContentBackBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 0</value>
+  </data>
+  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 40</value>
+  </data>
+  <data name="lblLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLogout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lblLogout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
+    <value>lblLogout</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblChangeLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblChangeLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblChangeLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblChangeLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 0</value>
+  </data>
+  <data name="lblChangeLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 40</value>
+  </data>
+  <data name="lblChangeLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblChangeLanguage.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="lblChangeLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblChangeLanguage.Name" xml:space="preserve">
+    <value>lblChangeLanguage</value>
+  </data>
+  <data name="&gt;&gt;lblChangeLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChangeLanguage.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;lblChangeLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="customizeUserInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="customizeUserInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 0</value>
+  </data>
+  <data name="customizeUserInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="customizeUserInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="customizeUserInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;customizeUserInfo.Name" xml:space="preserve">
+    <value>customizeUserInfo</value>
+  </data>
+  <data name="&gt;&gt;customizeUserInfo.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.CustomizeTabItem, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;customizeUserInfo.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;customizeUserInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTabMyExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="lblTabMyExam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTabMyExam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 0</value>
+  </data>
+  <data name="lblTabMyExam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblTabMyExam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="lblTabMyExam.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTabMyExam.Text" xml:space="preserve">
+    <value>My Exam</value>
+  </data>
+  <data name="lblTabMyExam.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTabMyExam.Name" xml:space="preserve">
+    <value>lblTabMyExam</value>
+  </data>
+  <data name="&gt;&gt;lblTabMyExam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTabMyExam.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;lblTabMyExam.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTabHome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="lblTabHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTabHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="lblTabHome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblTabHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="lblTabHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTabHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblTabHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTabHome.Name" xml:space="preserve">
+    <value>lblTabHome</value>
+  </data>
+  <data name="&gt;&gt;lblTabHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTabHome.Parent" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;lblTabHome.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="pnlTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnlTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 40</value>
+  </data>
+  <data name="pnlTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Name" xml:space="preserve">
+    <value>pnlTab</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOperaMin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAB5JREFUOE9jYBgF
+        gyAE/lMIGCjU/38QGDAIomHUCQAaav8BaLsi3wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="lblOperaMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOperaMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 10</value>
+  </data>
+  <data name="lblOperaMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblOperaMin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblOperaMin.Name" xml:space="preserve">
+    <value>lblOperaMin</value>
+  </data>
+  <data name="&gt;&gt;lblOperaMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOperaMin.Parent" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;lblOperaMin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOpreaClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALNJREFUOE+tU8EN
+        gzAMZBRGyAjdjIzQDeBT5mCDdgPYJL2r4ugIAhmKpVOU2DnbF6dp7rCUUgBmwGuMDSU3NgvwAaITjJ2V
+        gJkjD7A+9royX06SNgRwtLmHvibB+ZB9jGGlW4JcgQUWErlsVe4TVCSmCRMOVtVhBVXQiOAX8NSWzhKQ
+        pDtFoD1bNqyqiUtE7dmEPRZRnrFcFk3cz3hpkDjKb4rlxK8anUR+JpJ4bVoR/POjvzFeE65zkTsyAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="lblOpreaClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOpreaClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>988, 7</value>
+  </data>
+  <data name="lblOpreaClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblOpreaClose.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaClose.Name" xml:space="preserve">
+    <value>lblOpreaClose</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaClose.Parent" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOpreaMax.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIVJREFUOE9jYICC
+        ////FwAxqeA9TD8DUGcDVDeIJgYfAKkHaQwA4nog3g81AMTGh/OB8gIwC0EGkAMc0A1YABQACRLCsHDC
+        MKABHhh4GFALQC4eNWAwhMF8WMKDJSRSoxGW+D6QawAoQYHSggLMAFA+IJQHQPIgp4MTEnIu/EBGZjCA
+        GQAAsnhlZ0jWacEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblOpreaMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOpreaMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>962, 7</value>
+  </data>
+  <data name="lblOpreaMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="lblOpreaMax.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaMax.Name" xml:space="preserve">
+    <value>lblOpreaMax</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaMax.Parent" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;lblOpreaMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTitleName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitleName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblTitleName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTitleName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 7</value>
+  </data>
+  <data name="lblTitleName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 16</value>
+  </data>
+  <data name="lblTitleName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTitleName.Text" xml:space="preserve">
+    <value>Online Exam System Client</value>
+  </data>
+  <data name="&gt;&gt;lblTitleName.Name" xml:space="preserve">
+    <value>lblTitleName</value>
+  </data>
+  <data name="&gt;&gt;lblTitleName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitleName.Parent" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;lblTitleName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblIco.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIco.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="lblIco.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIco.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 5</value>
+  </data>
+  <data name="lblIco.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="lblIco.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblIco.Name" xml:space="preserve">
+    <value>lblIco</value>
+  </data>
+  <data name="&gt;&gt;lblIco.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIco.Parent" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;lblIco.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlTitleControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlTitleControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTitleControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnlTitleControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 30</value>
+  </data>
+  <data name="pnlTitleControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleControl.Name" xml:space="preserve">
+    <value>pnlTitleControl</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleControl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StudentMainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>OnlineExamSystem.UI.BaseForm, OnlineExamSystem.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="costomizePagenaitionBlock.perPageText" xml:space="preserve">
+    <value>Per Page</value>
+  </data>
+  <data name="costomizeTabLblAll.Content" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="costomizeTabLblFinished.Content" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="costomizeTabLblUnfinished.Content" xml:space="preserve">
+    <value>Unfinished</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Duration(Mins)</value>
+  </data>
+  <data name="costumizeEffectTime.ContentText" xml:space="preserve">
+    <value>Effective Time</value>
+  </data>
+  <data name="costumizeHeadName.ContentText" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="costumizeOpera.ContentText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="costumizePass.ContentText" xml:space="preserve">
+    <value>Pass Criteria</value>
+  </data>
+  <data name="costumizeTotal.ContentText" xml:space="preserve">
+    <value>Exam/Total Score</value>
+  </data>
+</root>

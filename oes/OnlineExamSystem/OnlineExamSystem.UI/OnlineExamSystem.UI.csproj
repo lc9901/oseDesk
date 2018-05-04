@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BD675A3-08A4-4E40-A89C-1B6F01324AFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineExamSystem.UI</RootNamespace>
+    <AssemblyName>OnlineExamSystem.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\..\..\Dll\LOG4NET\log4net-2.0.8\bin\net\2.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constants\Constants.cs" />
+    <Compile Include="CustomizeControl\CustomizeExamNoitc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeExamNoitc.Designer.cs">
+      <DependentUpon>CustomizeExamNoitc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeExamStausBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeExamStausBar.Designer.cs">
+      <DependentUpon>CustomizeExamStausBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizePagenaitionBlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizePagenaitionBlock.Designer.cs">
+      <DependentUpon>CustomizePagenaitionBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeQuestionResultDetialItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeQuestionResultDetialItem.Designer.cs">
+      <DependentUpon>CustomizeQuestionResultDetialItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTabLbl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTabLbl.Designer.cs">
+      <DependentUpon>CustomizeTabLbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeHead.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeHead.Designer.cs">
+      <DependentUpon>CustomizeHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeCurrentQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeCurrentQuestion.Designer.cs">
+      <DependentUpon>CustomizeCurrentQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeListItem.Designer.cs">
+      <DependentUpon>CustomizeListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTabItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTabItem.Designer.cs">
+      <DependentUpon>CustomizeTabItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTeacherExamListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomizeControl\CustomizeTeacherExamListItem.Designer.cs">
+      <DependentUpon>CustomizeTeacherExamListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamResultAbstractForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamResultAbstractForm.Designer.cs">
+      <DependentUpon>ExamResultAbstractForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamSummaryForm.Designer.cs">
+      <DependentUpon>ExamSummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExanResultDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExanResultDetailForm.Designer.cs">
+      <DependentUpon>ExanResultDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentMainForm.Designer.cs">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Session\Session.cs" />
+    <Compile Include="TeacherMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherMainForm.Designer.cs">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestingForm.Designer.cs">
+      <DependentUpon>TestingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ControlUtils.cs" />
+    <Compile Include="Utils\EndPointUtils.cs" />
+    <Compile Include="Utils\SetLanguage.cs" />
+    <EmbeddedResource Include="CustomizeControl\CustomizeExamNoitc.resx">
+      <DependentUpon>CustomizeExamNoitc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeExamNoitc.zh.resx">
+      <DependentUpon>CustomizeExamNoitc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeExamStausBar.resx">
+      <DependentUpon>CustomizeExamStausBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizePagenaitionBlock.resx">
+      <DependentUpon>CustomizePagenaitionBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeQuestionResultDetialItem.resx">
+      <DependentUpon>CustomizeQuestionResultDetialItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeTabLbl.resx">
+      <DependentUpon>CustomizeTabLbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeHead.resx">
+      <DependentUpon>CustomizeHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeCurrentQuestion.resx">
+      <DependentUpon>CustomizeCurrentQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeListItem.resx">
+      <DependentUpon>CustomizeListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeTabItem.resx">
+      <DependentUpon>CustomizeTabItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomizeControl\CustomizeTeacherExamListItem.resx">
+      <DependentUpon>CustomizeTeacherExamListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamResultAbstractForm.resx">
+      <DependentUpon>ExamResultAbstractForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamSummaryForm.resx">
+      <DependentUpon>ExamSummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExanResultDetailForm.resx">
+      <DependentUpon>ExanResultDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.zh-CN.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentMainForm.resx">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StudentMainForm.zh.resx">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherMainForm.resx">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestingForm.resx">
+      <DependentUpon>TestingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\Contract.Exam.datasource" />
+    <None Include="Properties\DataSources\Contract.ExamListItem.datasource" />
+    <None Include="Properties\DataSources\Contract.Pagination.datasource" />
+    <None Include="Properties\DataSources\Contract.Question.datasource" />
+    <None Include="Properties\DataSources\Contract.User.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Decrese_10x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Increase_10x15.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contract\Contract.csproj">
+      <Project>{9DA08FF3-E714-4508-A2C3-B4772F586847}</Project>
+      <Name>Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Right_15x15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICN_Wrong_15x15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_Radio_Unselected_16x16.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BTN_Radio_Selected_16x16.png.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
